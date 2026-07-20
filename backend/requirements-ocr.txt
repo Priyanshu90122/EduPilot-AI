@@ -1,0 +1,9 @@
+# Optional, HEAVY (pulls in PyTorch, multi-GB download). Only install this if
+# you need OCR on scanned PDFs / handwritten images and don't want to rely on
+# the lighter pytesseract fallback (which needs the `tesseract` system binary
+# but no ML dependencies).
+#
+#   pip install -r requirements.txt -r requirements-ocr.txt
+#
+-r requirements.txt
+easyocr==1.7.2
