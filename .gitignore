@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+*.db
+edupilot.db
+test.db
+
+# Env (never commit real secrets — .env.example / .env.docker.example ARE tracked)
+backend/.env
+frontend/.env
+*.env.local
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+*.tsbuildinfo
+
+# Storage
+backend/storage/uploads/*
+backend/storage/chroma/*
+!backend/storage/uploads/.gitkeep
+!backend/storage/chroma/.gitkeep
+backend/logs/
+
+# IDE
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Alembic — keep the migration env, ignore generated revision files
+backend/alembic/versions/*.py
+!backend/alembic/versions/.gitkeep
