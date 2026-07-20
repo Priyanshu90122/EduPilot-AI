@@ -4,7 +4,6 @@
 EduPilot AI is a full-stack AI platform that helps students with document understanding, study assistance, research, placement preparation, AI project mentoring, and productivity management — all in one modern dashboard.
 
 Built with FastAPI, React, TypeScript, LangGraph, RAG, OCR, ChromaDB, and LLMs (OpenAI / Gemini).
----
 
 ## Features
 
